@@ -9,3 +9,5 @@
 ###  test_data and train_data is now merged into data
 
 ### To create tidy_data from the above merged dataset, data is grouped by and them summarized with the mean for each group
+
+### Code book for tidy_data.txt is given in features.txt, feature_info.txt and activity_labels.txt
