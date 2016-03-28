@@ -1,16 +1,9 @@
----
-output: 
-  html_document: 
-    fig_caption: yes
----
-title: "PA1_template.RMD"
-author: "Alaka Sarangdhar"
-date: "March 28, 2016"  Sorry I had difficulty connecting to the internet till today, so I am late in this suvbmissiton
-output: html_document
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+#title: "PA1_template.RMD"
+#author: "Alaka Sarangdhar"
+#date: "March 28, 2016"  
+#output: 
+#  html_document: 
+#    fig_caption: yes
 
 ```{r}
 #Assignment 1
@@ -80,7 +73,7 @@ max (dailyact_we)
 
 You can also embed plots, for example:
 
-```{r, echo=FALSE}
+```{r, echo=TRUE}
 #If you do not understand the difference between a histogram and a barplot, research the difference between #them. Make a histogram of the total number of steps taken each day
 
 hist (perday,20, main="Total number of steps taken per day")
